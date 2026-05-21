@@ -9,7 +9,7 @@ genai.configure(
 )
 
 def main() -> None:
-    file_path = "StateFarm_Final_Estimate.pdf"
+    file_path = "Sample_Insurance_Estimate.pdf"
     rag = RAGPipeline()
     collection="InsuranceEstimate"
     #rag.ingest(file_path,collection)
